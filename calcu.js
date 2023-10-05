@@ -15,7 +15,7 @@ add.addEventListener("click" ,function(){
     var sum =Number(num1)+Number(num2)
 
     var result =document.getElementById("result")
-    result.textContent=`the result of ${num1} + ${num2} is ${sum}`
+    result.textContent=`Result : ${num1} + ${num2} = ${sum}`
 
 
 })
@@ -32,7 +32,7 @@ sub.addEventListener("click",()=>{
     var sum =Number(num1)-Number(num2)
 
     var result=document.getElementById("result")
-    result.textContent=`the result of ${num1} +${num2} is ${sum}`
+    result.textContent=`Result :${num1} -${num2} =${sum}`
 })
 
 
@@ -48,7 +48,7 @@ multi.addEventListener("click",()=>{
     var sum =Number(num1)*Number(num2)
 
     var result=document.getElementById("result")
-    result.textContent=`the result of ${num1} +${num2} is ${sum}`
+    result.textContent=`Result : ${num1} *${num2} = ${sum}`
 })
 
 
@@ -63,7 +63,7 @@ divi.addEventListener("click",()=>{
     var sum =Number(num1)/Number(num2)
 
     var result=document.getElementById("result")
-    result.textContent=`the result of ${num1} +${num2} is ${sum}`
+    result.textContent=` Result :  ${num1} /${num2} = ${sum}`
 })
 
 
@@ -76,5 +76,5 @@ mod.addEventListener("click",()=>{
     var sum = Number(num1)%Number(num2)
 
     var result = document.getElementById("result")
-    result.textContent=`the result of ${num1} + ${num2} is ${sum}`
+    result.textContent=`Result : ${num1} % ${num2} = ${sum}`
 })
